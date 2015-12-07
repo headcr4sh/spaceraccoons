@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "command": "npm",
+  "isShellCommand": true,
+  "showOutput": "silent",
+  "args": [ "install" ],
+  "tasks": [
+    {
+      "taskName": "build",
+	  "echoCommand": false,
+      "isBuildCommand": true,
+      "isTestCommand": false,
+	  "isWatching": false,
+	  "problemMatcher": "$tsc",
+	  "suppressTaskName": true
+    }
+  ]
+}

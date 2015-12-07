@@ -1,0 +1,14 @@
+/.editorconfig
+/.git/
+/.gitattributes
+/.gitignore
+/.gitmodules
+/.mailmap
+/.npmignore
+/.vscode/
+/src/
+/tsd.json
+/tsconfig.json
+/tslint.json
+*~
+*.log
