@@ -28,9 +28,9 @@
   "scripts": {
     "_prepare": "tsd install",
 	  "_compile-es6": "tsc",
-	  "_create-typings": "dts-generator --name spaceraccoons --out ./lib/spaceraccoons.d.ts --project .",
+	  "_create-typings": "dts-generator --name spaceraccoons --out ./lib/spaceraccoons.d.ts --project . --project .",
 	  "prepublish": "npm run-script -s _prepare && npm run-script -s _compile-es6 && npm run-script -s _create-typings"  
   },
   "typings": "lib/spaceraccoons.d.ts",
-  "version": "0.0.0"
+  "version": "0.0.1"
 }
